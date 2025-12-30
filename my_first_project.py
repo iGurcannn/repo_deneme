@@ -72,8 +72,7 @@ def list_of_children(L):
     my_list = []
     
     for p in L:
-        my_list.append(p)
-        not_constant_list = []
+        not_constant_list = [p]
         for c in L:
             if is_child(p, c):
                 
